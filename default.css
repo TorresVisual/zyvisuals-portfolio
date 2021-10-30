@@ -1,0 +1,366 @@
+@font-face{
+    src: url(fonts/Exo2-Black.otf);
+    font-family: exo;
+}
+*{
+            padding: 0%;
+            margin: 0%;
+            box-sizing: border-box;
+        }
+body{
+    font-family: exo;
+}
+.background-abtme{
+        position: absolute;
+width: 100%;
+height: 518px;
+left: 0px;
+top: 0px;
+
+background: #0C4F7C;
+}
+.aboutme p{
+position: absolute;
+width: 525px;
+height: 100px;
+left: 20px;
+top: -100px;
+
+font-family: exo;
+font-weight: 900;
+font-size: 64px;
+line-height: 77px;
+text-align: center;
+
+color: #FFFFFF;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.aboutme li{
+    position: absolute;
+width: 463px;
+height: 233px;
+left: 40px;
+top: 0px;
+
+font-family: exo;
+font-weight: 900;
+font-size: 36px;
+line-height: 77px;
+
+
+color: #FFFFFF;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+list-style: none;
+}
+.logo{
+    position: absolute;
+width: 327px;
+height: 327px;
+left: 195px;
+top: 96px;
+
+background: url(assets/logo-zy.png);
+border-radius: 200px;
+}
+.aboutme{
+    
+position: absolute;
+width: 562px;
+height: 268px;
+left: 702px;
+top: 155px;
+
+background: #C4C4C4;
+border-radius: 32px;
+}
+
+
+.background-projects{
+    position: absolute;
+width: 100%;
+height: 663px;
+left: 0px;
+top: 518px;
+
+background: #01263F;
+}
+.projects p{
+    position: absolute;
+width: 525px;
+height: 100px;
+left: 700px;
+top: 50px;
+
+font-family: Exo 2;
+font-style: normal;
+font-weight: 900;
+font-size: 64px;
+line-height: 77px;
+text-align: center;
+
+color: #FFFFFF;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.project1 p{
+    position: absolute;
+width: 278px;
+height: 52px;
+left: 90px;
+top: 270px;
+
+font-family: Exo 2;
+font-style: normal;
+font-weight: 900;
+font-size: 36px;
+line-height: 43px;
+
+color: #565353;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+}
+.project1{
+    position: absolute;
+width: 457px;
+height: 339.61px;
+left: 730px;
+top: 250px;
+    background-image: url(assets/project1.png);
+        cursor: pointer;
+}
+.project2 p{
+    position: absolute;
+width: 279px;
+height: 38px;
+left: 80px;
+top: 200px;
+
+font-family: Exo 2;
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 29px;
+
+color: #565353;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.project2{
+position: absolute;
+width: 336.6px;
+height: 250.14px;
+left: 1300px;
+top: 280px;
+    background-image: url(assets/project2.png);
+        cursor: pointer;
+}
+.project3 p{
+    position: absolute;
+width: 279px;
+height: 38px;
+left: 40px;
+top: 200px;
+
+font-family: Exo 2;
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 29px;
+
+color: #565353;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.project3{
+position: absolute;
+width: 336.6px;
+height: 250.14px;
+left: 270px;
+top: 280px;
+    background-image: url(assets/project3.png);
+        cursor: pointer;
+}
+
+
+.background-socialmedia{
+    position: absolute;
+width: 100%;
+height: 414px;
+left: 0px;
+top: 1181px;
+
+background: #0C4F7C;
+}
+.socialmedia p{
+    position: absolute;
+width: 525px;
+height: 100px;
+left: 720px;
+top: 20px;
+
+font-family: Exo 2;
+font-style: normal;
+font-weight: 900;
+font-size: 64px;
+line-height: 77px;
+text-align: center;
+
+color: #FFFFFF;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.twitter p{
+    text-decoration: none;
+    position: absolute;
+width: 192px;
+height: 37px;
+left: -43px;
+top: 110px;
+
+font-family: exo;
+font-style: normal;
+
+font-size: 13px;
+line-height: 16px;
+text-align: center;
+
+color: #FFFFFF;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.twitter{
+    position: absolute;
+width: 100px;
+height: 115px;
+left: 700px;
+top: 150px;
+
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.instagram p{
+    text-decoration: none;
+    position: absolute;
+width: 192px;
+height: 37px;
+left: -46px;
+top: 110px;
+
+font-family: exo;
+font-style: normal;
+
+font-size: 13px;
+line-height: 16px;
+text-align: center;
+
+color: #FFFFFF;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.instagram{
+    position: absolute;
+width: 100px;
+height: 115px;
+left: 850px;
+top: 150px;
+
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.youtube p{
+    text-decoration: none;
+    position: absolute;
+width: 192px;
+height: 37px;
+left: -46px;
+top: 110px;
+
+font-family: exo;
+font-style: normal;
+
+font-size: 13px;
+line-height: 16px;
+text-align: center;
+
+color: #FFFFFF;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.youtube{
+    position: absolute;
+width: 100px;
+height: 115px;
+left: 1000px;
+top: 150px;
+
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.discord p{
+    text-decoration: none;
+    position: absolute;
+width: 192px;
+height: 37px;
+left: -46px;
+top: 110px;
+
+font-family: exo;
+font-style: normal;
+
+font-size: 13px;
+line-height: 16px;
+text-align: center;
+
+color: #FFFFFF;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.discord{
+    position: absolute;
+width: 100px;
+height: 115px;
+left: 1150px;
+top: 150px;
+
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+
+.background-footer{
+    position: absolute;
+width: 100%;
+height: 155px;
+left: 0px;
+top: 1595px;
+
+background: #C4C4C4;
+}
+.logo2{
+    position: absolute;
+width: 85px;
+height: 85px;
+left: 55px;
+top: 36px;
+
+background: url(assets/logo2.png);
+border-radius: 200px;
+}
+.footer{
+    
+    position: absolute;
+width: 1254px;
+height: 72px;
+left: 165px;
+top: 55px;
+
+font-family: Exo 2;
+font-style: normal;
+font-weight: 00;
+font-size: 18px;
+line-height: 22px;
+
+color: #F7F7F7;
+}
+.footer a u{
+    text-decoration: none;
+    text-decoration-color: white;
+}
